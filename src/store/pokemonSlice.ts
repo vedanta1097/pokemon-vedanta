@@ -1,6 +1,7 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit'
 
 export type Pokemon = {
+  id: number,
   name: string,
   url: string,
 }
